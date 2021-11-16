@@ -1,0 +1,16 @@
+f:\cqf\vs2021project\sensitive_word_search\sensitive_word_search\bin\Debug\net5.0\sensitive_word_search.deps.json
+F:\cqf\vs2021project\sensitive_word_search\sensitive_word_search\bin\Debug\net5.0\sensitive_word_search.dll
+f:\cqf\vs2021project\sensitive_word_search\sensitive_word_search\bin\Debug\net5.0\ref\sensitive_word_search.dll
+F:\cqf\vs2021project\sensitive_word_search\sensitive_word_search\bin\Debug\net5.0\sensitive_word_search.pdb
+F:\cqf\vs2021project\sensitive_word_search\sensitive_word_search\obj\Debug\net5.0\sensitive_word_search.csproj.AssemblyReference.cache
+F:\cqf\vs2021project\sensitive_word_search\sensitive_word_search\obj\Debug\net5.0\sensitive_word_search.GeneratedMSBuildEditorConfig.editorconfig
+F:\cqf\vs2021project\sensitive_word_search\sensitive_word_search\obj\Debug\net5.0\sensitive_word_search.AssemblyInfoInputs.cache
+F:\cqf\vs2021project\sensitive_word_search\sensitive_word_search\obj\Debug\net5.0\sensitive_word_search.AssemblyInfo.cs
+F:\cqf\vs2021project\sensitive_word_search\sensitive_word_search\obj\Debug\net5.0\sensitive_word_search.csproj.CoreCompileInputs.cache
+F:\cqf\vs2021project\sensitive_word_search\sensitive_word_search\obj\Debug\net5.0\sensitive_word_search.dll
+F:\cqf\vs2021project\sensitive_word_search\sensitive_word_search\obj\Debug\net5.0\ref\sensitive_word_search.dll
+F:\cqf\vs2021project\sensitive_word_search\sensitive_word_search\obj\Debug\net5.0\sensitive_word_search.pdb
+F:\cqf\vs2021project\sensitive_word_search\sensitive_word_search\bin\Debug\net5.0\sensitive_word_search.exe
+f:\cqf\vs2021project\sensitive_word_search\sensitive_word_search\bin\Debug\net5.0\sensitive_word_search.runtimeconfig.json
+f:\cqf\vs2021project\sensitive_word_search\sensitive_word_search\bin\Debug\net5.0\sensitive_word_search.runtimeconfig.dev.json
+f:\cqf\vs2021project\sensitive_word_search\sensitive_word_search\obj\Debug\net5.0\sensitive_word_search.genruntimeconfig.cache
