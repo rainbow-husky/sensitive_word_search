@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "f2Xaa70oymuAJrVgUzzeUuVt2lTa6xsLDmzZzFBDCwVv7+k221Dm+lTST/1Awh63mPQs4MSGz/kqcwDTzfWrVg==",
+  "dgSpecHash": "Dc+GcQrRVgoF/XiJvEPuFCU9Pbg7AWEOuvfsQpqf4dZZ/kWrQWImDZaLJwEmthtP4QTW86ukeyN428SjEbh9Bw==",
   "success": true,
   "projectFilePath": "f:\\cqf\\vs2021project\\sensitive_word_search\\sensitive_word_search\\sensitive_word_search.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\wgy\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
   "logs": []
 }
