@@ -8,12 +8,12 @@ namespace sensitive_word_search
     {
         static void Main(string[] args)
         {
-            sensitive_word_search test = new sensitive_word_search("Hello World", "Hello cqf");
+            //sensitive_word_search test = new sensitive_word_search("Hello World", "Hello cqf");
             //string test_string = "aaaaHello World Hello a World";
-            string test_file_path = "F://cqf//vs2021project//sensitive_word_search//test.txt";
-            string ouput = test.search_and_replace(test_file_path);
-            // dataflow testd = new dataflow();
-            // testd.nono(args);
+            //string test_file_path = "F://cqf//vs2021project//sensitive_word_search//test.txt";
+            //string ouput = test.search_and_replace(test_file_path);
+            dataflow testd = new dataflow();
+            testd.nono(args);
 
             Console.ReadLine(); // 等待输入，防止输出后丢失结果界面
         }
