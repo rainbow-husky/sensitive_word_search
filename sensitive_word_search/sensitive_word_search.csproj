@@ -1,10 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <Application/>
     <OutputType>Exe</OutputType>
     <StartupObject/>
   </PropertyGroup>
-
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="2.10.0"/>
+    <PackageReference Include="Serilog.Settings.AppSettings" Version="2.2.2"/>
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0"/>
+    <PackageReference Include="Serilog.Sinks.RollingFile" Version="3.3.0"/>
+    <PackageReference Include="CommandDotNet" Version="5.0.1"/>
+  </ItemGroup>
 </Project>
