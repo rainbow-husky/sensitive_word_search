@@ -91,6 +91,15 @@
           "lib/netstandard1.3/Serilog.Sinks.RollingFile.dll": {}
         }
       },
+      "Spectre.Console/0.43.1-preview.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Spectre.Console.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Spectre.Console.dll": {}
+        }
+      },
       "System.Configuration.ConfigurationManager/4.4.1": {
         "type": "package",
         "dependencies": {
@@ -426,6 +435,24 @@
         "lib/netstandard1.3/Serilog.Sinks.RollingFile.xml",
         "serilog.sinks.rollingfile.3.3.0.nupkg.sha512",
         "serilog.sinks.rollingfile.nuspec"
+      ]
+    },
+    "Spectre.Console/0.43.1-preview.0.2": {
+      "sha512": "mmhz3kvfpnoabXDHITCYHBwvtfC+kf9mBVjeI4IWZ3GgoYR0x2/IFj6hyu8A7n+0ii9oEaoohpVBehfjpafbPQ==",
+      "type": "package",
+      "path": "spectre.console/0.43.1-preview.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/Spectre.Console.dll",
+        "lib/net5.0/Spectre.Console.xml",
+        "lib/net6.0/Spectre.Console.dll",
+        "lib/net6.0/Spectre.Console.xml",
+        "lib/netstandard2.0/Spectre.Console.dll",
+        "lib/netstandard2.0/Spectre.Console.xml",
+        "small-logo.png",
+        "spectre.console.0.43.1-preview.0.2.nupkg.sha512",
+        "spectre.console.nuspec"
       ]
     },
     "System.Configuration.ConfigurationManager/4.4.1": {
@@ -1179,7 +1206,8 @@
       "Serilog >= 2.10.0",
       "Serilog.Settings.AppSettings >= 2.2.2",
       "Serilog.Sinks.File >= 5.0.0",
-      "Serilog.Sinks.RollingFile >= 3.3.0"
+      "Serilog.Sinks.RollingFile >= 3.3.0",
+      "Spectre.Console >= 0.43.1-preview.0.2"
     ]
   },
   "packageFolders": {
@@ -1245,6 +1273,10 @@
           "Serilog.Sinks.RollingFile": {
             "target": "Package",
             "version": "[3.3.0, )"
+          },
+          "Spectre.Console": {
+            "target": "Package",
+            "version": "[0.43.1-preview.0.2, )"
           }
         },
         "imports": [

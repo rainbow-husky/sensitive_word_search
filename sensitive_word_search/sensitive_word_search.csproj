@@ -11,5 +11,6 @@
     <PackageReference Include="Serilog.Sinks.File" Version="5.0.0"/>
     <PackageReference Include="Serilog.Sinks.RollingFile" Version="3.3.0"/>
     <PackageReference Include="CommandDotNet" Version="5.0.1"/>
+    <PackageReference Include="Spectre.Console" Version="0.43.1-preview.0.2"/>
   </ItemGroup>
 </Project>

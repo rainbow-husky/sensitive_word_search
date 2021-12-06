@@ -12,7 +12,8 @@
           "Serilog": "2.10.0",
           "Serilog.Settings.AppSettings": "2.2.2",
           "Serilog.Sinks.File": "5.0.0",
-          "Serilog.Sinks.RollingFile": "3.3.0"
+          "Serilog.Sinks.RollingFile": "3.3.0",
+          "Spectre.Console": "0.43.1-preview.0.2"
         },
         "runtime": {
           "sensitive_word_search.dll": {}
@@ -75,6 +76,14 @@
           "lib/netstandard1.3/Serilog.Sinks.RollingFile.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "3.3.0.0"
+          }
+        }
+      },
+      "Spectre.Console/0.43.1-preview.0.2": {
+        "runtime": {
+          "lib/net5.0/Spectre.Console.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.43.1.0"
           }
         }
       },
@@ -243,6 +252,13 @@
       "sha512": "sha512-2lT5X1r3GH4P0bRWJfhA7etGl8Q2Ipw9AACvtAHWRUSpYZ42NGVyHoVs2ALBZ/cAkkS+tA4jl80Zie144eLQPg==",
       "path": "serilog.sinks.rollingfile/3.3.0",
       "hashPath": "serilog.sinks.rollingfile.3.3.0.nupkg.sha512"
+    },
+    "Spectre.Console/0.43.1-preview.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mmhz3kvfpnoabXDHITCYHBwvtfC+kf9mBVjeI4IWZ3GgoYR0x2/IFj6hyu8A7n+0ii9oEaoohpVBehfjpafbPQ==",
+      "path": "spectre.console/0.43.1-preview.0.2",
+      "hashPath": "spectre.console.0.43.1-preview.0.2.nupkg.sha512"
     },
     "System.Configuration.ConfigurationManager/4.4.1": {
       "type": "package",

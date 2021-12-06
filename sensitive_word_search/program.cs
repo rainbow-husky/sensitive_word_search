@@ -1,47 +1,49 @@
 ﻿using System.IO;
 using System;
-using TPL_sensitive_word_search;
-// using Serilog;
-// using System.Text;
+using CommandDotNet;
+using System.Text;
+using Serilog;
 
 namespace sensitive_word_search
 {
     public class program
     {
-        static void Main(string[] args)
+        static int Main(string[] args)
         {
-            // // 创建全局静态实例
-            // Log.Logger = new LoggerConfiguration()
-            //     //设置最低等级
-            //     .MinimumLevel.Verbose()
-            //     //将事件发送到文件
-            //     .WriteTo.File(@".\Log\Log.txt",     // 日志文件名
-            //         outputTemplate:                    // 设置输出格式，显示详细异常信息
-            //         @"{Timestamp:yyyy-MM-dd HH:mm-ss.fff }[{Level:u3}] {Message:lj}{NewLine}{Exception}", 
-            //         rollingInterval: RollingInterval.Day,   // 日志按月保存
-            //         rollOnFileSizeLimit: true,              // 限制单个文件的最大长度
-            //         encoding:Encoding.UTF8,                 // 文件字符编码
-            //         retainedFileCountLimit:10,              // 最大保存文件数
-            //         fileSizeLimitBytes:10*1024)                // 最大单个文件长度
-            //     .CreateLogger();
+            // 创建serilog日记全局静态实例
+            Log.Logger = new LoggerConfiguration()
+                //设置最低等级
+                .MinimumLevel.Verbose()
+                //将事件发送到文件
+                .WriteTo.File(@"F:\cqf\vs2021project\sensitive_word_search\log_output\Log.txt",     // 日志文件名
+                    outputTemplate:                    // 设置输出格式，显示详细异常信息
+                    @"{Timestamp:yyyy-MM-dd HH:mm-ss.fff }[{Level:u3}] {Message:lj}{NewLine}{Exception}", 
+                    rollingInterval: RollingInterval.Day,   // 日志按月保存
+                    rollOnFileSizeLimit: true,              // 限制单个文件的最大长度
+                    encoding:Encoding.UTF8,                 // 文件字符编码
+                    retainedFileCountLimit:10,              // 最大保存文件数
+                    fileSizeLimitBytes:10*1024)                // 最大单个文件长度
+                .CreateLogger();
 
-            // sensitive_word_search test = new sensitive_word_search("Hello World", "Hello cqf");
-            //string test_string = "aaaaHello World Hello a World";
+            //sensitive_word_search test = new sensitive_word_search("Hello World", "Hello cqf");
+            // string test_string = "aaaaHello World Hello a World";
             // string test_file_path = "F://cqf//vs2021project//sensitive_word_search//test.txt";
             // string ouput = test.search_and_replace(test_file_path);
-            dataflow testd = new dataflow();
-            testd.nono(args);
+            return new AppRunner<searcher>().Run(args);
+            // dataflow testd = new dataflow();
+            // testd.nono(args);
 
-            Console.ReadLine(); // 等待输入，防止输出后丢失结果界面
+            //Console.ReadLine(); // 等待输入，防止输出后丢失结果界面
         }
     }
 
+    [Command(Description = "sensitive words searcher")]
     public class sensitive_word_search
     {
         // 敏感词查找（并替换）机
         public string sensitive_words;
         public string replace_words;
-
+        
         public sensitive_word_search(string sensitive_words, string replace_words)
         {
             // 初始化函数
@@ -50,6 +52,7 @@ namespace sensitive_word_search
             Console.WriteLine("sensitive_word_search instance has been inited!");
         }
 
+        [Command(Description = "search sensitive words and replace them!")]
         public string search_and_replace(string input)
         {
             if(File.Exists(input))
